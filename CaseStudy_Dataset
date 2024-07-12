@@ -1,183 +1,154 @@
 {
-  "Brands": [
+  "brands": [
     {
-      "BrandId": 1,
-      "BrandName": "Dior"
+      "name": "Dior",
+      "products": [
+        {
+          "Id": "D001",
+          "name": "Dior Sauvage",
+          "description": "A fresh and spicy cologne from Dior. Perfect for everyday wear with long-lasting fragrance.",
+          "price": 90.00,
+          "graphicName": "dior_sauvage.png",
+          "qtyOnHand": 100,
+          "qtyOnBackOrder": 20
+        },
+        {
+          "Id": "D002",
+          "name": "Dior Homme",
+          "description": "A sophisticated cologne with woody and floral notes. Ideal for formal occasions.",
+          "price": 85.00,
+          "graphicName": "dior_homme.png",
+          "qtyOnHand": 80,
+          "qtyOnBackOrder": 15
+        },
+        {
+          "Id": "D003",
+          "name": "Dior Addict",
+          "description": "An intense and captivating fragrance from Dior. Perfect for evening wear.",
+          "price": 100.00,
+          "graphicName": "dior_addict.png",
+          "qtyOnHand": 60,
+          "qtyOnBackOrder": 25
+        },
+        {
+          "Id": "D004",
+          "name": "Dior J'adore",
+          "description": "A luxurious and feminine fragrance with floral and fruity notes. Ideal for special occasions.",
+          "price": 95.00,
+          "graphicName": "dior_jadore.png",
+          "qtyOnHand": 90,
+          "qtyOnBackOrder": 10
+        },
+        {
+          "Id": "D005",
+          "name": "Dior Hypnotic Poison",
+          "description": "A sensual and enchanting fragrance from Dior. Perfect for making a statement.",
+          "price": 110.00,
+          "graphicName": "dior_hypnotic_poison.png",
+          "qtyOnHand": 50,
+          "qtyOnBackOrder": 30
+        }
+      ]
     },
     {
-      "BrandId": 2,
-      "BrandName": "Versace"
+      "name": "Versace",
+      "products": [
+        {
+          "Id": "V001",
+          "name": "Versace Eros",
+          "description": "A powerful and sensual cologne from Versace. Perfect for passionate and confident men.",
+          "price": 80.00,
+          "graphicName": "versace_eros.png",
+          "qtyOnHand": 120,
+          "qtyOnBackOrder": 25
+        },
+        {
+          "Id": "V002",
+          "name": "Versace Dylan Blue",
+          "description": "A fresh and intense cologne with aquatic and citrus notes. Ideal for daily wear.",
+          "price": 85.00,
+          "graphicName": "versace_dylan_blue.png",
+          "qtyOnHand": 110,
+          "qtyOnBackOrder": 20
+        },
+        {
+          "Id": "V003",
+          "name": "Versace Pour Homme",
+          "description": "A classic and timeless fragrance from Versace. Perfect for sophisticated men.",
+          "price": 75.00,
+          "graphicName": "versace_pour_homme.png",
+          "qtyOnHand": 130,
+          "qtyOnBackOrder": 10
+        },
+        {
+          "Id": "V004",
+          "name": "Versace Bright Crystal",
+          "description": "A delicate and radiant fragrance with floral and fruity notes. Ideal for women.",
+          "price": 90.00,
+          "graphicName": "versace_bright_crystal.png",
+          "qtyOnHand": 100,
+          "qtyOnBackOrder": 15
+        },
+        {
+          "Id": "V005",
+          "name": "Versace Oud Noir",
+          "description": "An oriental and woody fragrance from Versace. Perfect for evening wear.",
+          "price": 105.00,
+          "graphicName": "versace_oud_noir.png",
+          "qtyOnHand": 90,
+          "qtyOnBackOrder": 20
+        }
+      ]
     },
     {
-      "BrandId": 3,
-      "BrandName": "Gucci"
-    }
-  ],
-  "Products": [
-    {
-      "Id": "D001",
-      "BrandId": 1,
-      "ProductName": "Dior Sauvage",
-      "GraphicName": "dior_sauvage.png",
-      "CostPrice": 60.00,
-      "MSRP": 90.00,
-      "QtyOnHand": 100,
-      "QtyOnBackOrder": 20,
-      "Description": "A fresh and spicy cologne from Dior. Perfect for everyday wear with long-lasting fragrance."
-    },
-    {
-      "Id": "D002",
-      "BrandId": 1,
-      "ProductName": "Dior Homme",
-      "GraphicName": "dior_homme.png",
-      "CostPrice": 55.00,
-      "MSRP": 85.00,
-      "QtyOnHand": 80,
-      "QtyOnBackOrder": 15,
-      "Description": "A sophisticated cologne with woody and floral notes. Ideal for formal occasions."
-    },
-    {
-      "Id": "D003",
-      "BrandId": 1,
-      "ProductName": "Dior Addict",
-      "GraphicName": "dior_addict.png",
-      "CostPrice": 70.00,
-      "MSRP": 100.00,
-      "QtyOnHand": 60,
-      "QtyOnBackOrder": 25,
-      "Description": "An intense and captivating fragrance from Dior. Perfect for evening wear."
-    },
-    {
-      "Id": "D004",
-      "BrandId": 1,
-      "ProductName": "Dior J'adore",
-      "GraphicName": "dior_jadore.png",
-      "CostPrice": 65.00,
-      "MSRP": 95.00,
-      "QtyOnHand": 90,
-      "QtyOnBackOrder": 10,
-      "Description": "A luxurious and feminine fragrance with floral and fruity notes. Ideal for special occasions."
-    },
-    {
-      "Id": "D005",
-      "BrandId": 1,
-      "ProductName": "Dior Hypnotic Poison",
-      "GraphicName": "dior_hypnotic_poison.png",
-      "CostPrice": 75.00,
-      "MSRP": 110.00,
-      "QtyOnHand": 50,
-      "QtyOnBackOrder": 30,
-      "Description": "A sensual and enchanting fragrance from Dior. Perfect for making a statement."
-    },
-    {
-      "Id": "V001",
-      "BrandId": 2,
-      "ProductName": "Versace Eros",
-      "GraphicName": "versace_eros.png",
-      "CostPrice": 50.00,
-      "MSRP": 80.00,
-      "QtyOnHand": 120,
-      "QtyOnBackOrder": 25,
-      "Description": "A powerful and sensual cologne from Versace. Perfect for passionate and confident men."
-    },
-    {
-      "Id": "V002",
-      "BrandId": 2,
-      "ProductName": "Versace Dylan Blue",
-      "GraphicName": "versace_dylan_blue.png",
-      "CostPrice": 55.00,
-      "MSRP": 85.00,
-      "QtyOnHand": 110,
-      "QtyOnBackOrder": 20,
-      "Description": "A fresh and intense cologne with aquatic and citrus notes. Ideal for daily wear."
-    },
-    {
-      "Id": "V003",
-      "BrandId": 2,
-      "ProductName": "Versace Pour Homme",
-      "GraphicName": "versace_pour_homme.png",
-      "CostPrice": 45.00,
-      "MSRP": 75.00,
-      "QtyOnHand": 130,
-      "QtyOnBackOrder": 10,
-      "Description": "A classic and timeless fragrance from Versace. Perfect for sophisticated men."
-    },
-    {
-      "Id": "V004",
-      "BrandId": 2,
-      "ProductName": "Versace Bright Crystal",
-      "GraphicName": "versace_bright_crystal.png",
-      "CostPrice": 60.00,
-      "MSRP": 90.00,
-      "QtyOnHand": 100,
-      "QtyOnBackOrder": 15,
-      "Description": "A delicate and radiant fragrance with floral and fruity notes. Ideal for women."
-    },
-    {
-      "Id": "V005",
-      "BrandId": 2,
-      "ProductName": "Versace Oud Noir",
-      "GraphicName": "versace_oud_noir.png",
-      "CostPrice": 70.00,
-      "MSRP": 105.00,
-      "QtyOnHand": 90,
-      "QtyOnBackOrder": 20,
-      "Description": "An oriental and woody fragrance from Versace. Perfect for evening wear."
-    },
-    {
-      "Id": "G001",
-      "BrandId": 3,
-      "ProductName": "Gucci Guilty",
-      "GraphicName": "gucci_guilty.png",
-      "CostPrice": 65.00,
-      "MSRP": 95.00,
-      "QtyOnHand": 100,
-      "QtyOnBackOrder": 15,
-      "Description": "A bold and alluring fragrance from Gucci. Perfect for confident individuals."
-    },
-    {
-      "Id": "G002",
-      "BrandId": 3,
-      "ProductName": "Gucci Bloom",
-      "GraphicName": "gucci_bloom.png",
-      "CostPrice": 60.00,
-      "MSRP": 90.00,
-      "QtyOnHand": 110,
-      "QtyOnBackOrder": 10,
-      "Description": "A rich and floral fragrance with notes of jasmine and tuberose. Ideal for women."
-    },
-    {
-      "Id": "G003",
-      "BrandId": 3,
-      "ProductName": "Gucci Flora",
-      "GraphicName": "gucci_flora.png",
-      "CostPrice": 55.00,
-      "MSRP": 85.00,
-      "QtyOnHand": 120,
-      "QtyOnBackOrder": 20,
-      "Description": "A fresh and floral fragrance with hints of citrus and peony. Perfect for spring."
-    },
-    {
-      "Id": "G004",
-      "BrandId": 3,
-      "ProductName": "Gucci Memoire",
-      "GraphicName": "gucci_memoire.png",
-      "CostPrice": 70.00,
-      "MSRP": 100.00,
-      "QtyOnHand": 90,
-      "QtyOnBackOrder": 25,
-      "Description": "A unique and unisex fragrance with notes of chamomile and sandalwood."
-    },
-    {
-      "Id": "G005",
-      "BrandId": 3,
-      "ProductName": "Gucci Intense Oud",
-      "GraphicName": "gucci_intense_oud.png",
-      "CostPrice": 80.00,
-      "MSRP": 120.00,
-      "QtyOnHand": 80,
-      "QtyOnBackOrder": 30,
-      "Description": "An intense and luxurious fragrance with rich oud notes. Perfect for special occasions."
+      "name": "Gucci",
+      "products": [
+        {
+          "Id": "G001",
+          "name": "Gucci Guilty",
+          "description": "A bold and alluring fragrance from Gucci. Perfect for confident individuals.",
+          "price": 95.00,
+          "graphicName": "gucci_guilty.png",
+          "qtyOnHand": 100,
+          "qtyOnBackOrder": 15
+        },
+        {
+          "Id": "G002",
+          "name": "Gucci Bloom",
+          "description": "A rich and floral fragrance with notes of jasmine and tuberose. Ideal for women.",
+          "price": 90.00,
+          "graphicName": "gucci_bloom.png",
+          "qtyOnHand": 110,
+          "qtyOnBackOrder": 10
+        },
+        {
+          "Id": "G003",
+          "name": "Gucci Flora",
+          "description": "A fresh and floral fragrance with hints of citrus and peony. Perfect for spring.",
+          "price": 85.00,
+          "graphicName": "gucci_flora.png",
+          "qtyOnHand": 120,
+          "qtyOnBackOrder": 20
+        },
+        {
+          "Id": "G004",
+          "name": "Gucci Memoire",
+          "description": "A unique and unisex fragrance with notes of chamomile and sandalwood.",
+          "price": 100.00,
+          "graphicName": "gucci_memoire.png",
+          "qtyOnHand": 90,
+          "qtyOnBackOrder": 25
+        },
+        {
+          "Id": "G005",
+          "name": "Gucci Intense Oud",
+          "description": "An intense and luxurious fragrance with rich oud notes. Perfect for special occasions.",
+          "price": 120.00,
+          "graphicName": "gucci_intense_oud.png",
+          "qtyOnHand": 80,
+          "qtyOnBackOrder": 30
+        }
+      ]
     }
   ]
 }
